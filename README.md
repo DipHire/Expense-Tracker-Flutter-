@@ -1,4 +1,4 @@
-# money
+# Expense-Tracker-flutter
 
 A new Flutter project.
 
