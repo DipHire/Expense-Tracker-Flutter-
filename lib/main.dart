@@ -90,7 +90,7 @@ class _BudgetScreenState extends State<BudgetScreen> {
               final failure = snapshot.error as Failure;
               return Center(child: Text(failure.message));
             }
-            // Show a loadinmg spinner
+            // Show a loadinmg spinner 
             return const Center(child: CircularProgressIndicator());
           },
         ),
@@ -113,3 +113,7 @@ Color getCategoryColor(String category) {
       return Colors.purple[400]!;
   }
 }
+
+
+//why are here???
+//This is my code :0
